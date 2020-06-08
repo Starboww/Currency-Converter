@@ -247,16 +247,12 @@ TextView textView,textView2;
             @Override
             public void onClick(View v) {
                 textView.setText("0.00");
-                editText.setText("₹");
+                editText.setText("");
+                textView2.setText(null);
 
             }
         });
-        editText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText.setText(null);
-            }
-        });
+
     }
 
 }
