@@ -79,7 +79,7 @@ TextView textView,textView2;
                     k = n * 0.0104;
                     DecimalFormat numberFormat = new DecimalFormat("#.000");
                     textView.setText("" + numberFormat.format(k));
-                    textView2.setText("$");
+                    textView2.setText("£");
                 }
 
 
@@ -102,7 +102,7 @@ TextView textView,textView2;
                     k = n * 0.0132;
                     DecimalFormat numberFormat = new DecimalFormat("#.00");
                     textView.setText("" + numberFormat.format(k));
-                    textView2.setText("£");
+                    textView2.setText("$");
                 }
 
             }
