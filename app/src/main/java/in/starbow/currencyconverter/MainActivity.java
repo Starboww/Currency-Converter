@@ -47,7 +47,7 @@ TextView textView,textView2;
                 }
                 else{
                     double n,k;
-                    n= Double.parseDouble(z);//converting string back to int
+                    n= Double.parseDouble(z);//converting string back to doubble
 //                    editText.setText(null);
                    // Formatter formatter = new Formatter();//by this class we can format our class in the we we want
                     k=n*0.012;
@@ -80,6 +80,7 @@ TextView textView,textView2;
                     DecimalFormat numberFormat = new DecimalFormat("#.000");
                     textView.setText("" + numberFormat.format(k));
                     textView2.setText("£");
+
                 }
 
 

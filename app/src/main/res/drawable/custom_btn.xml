@@ -4,4 +4,5 @@
     android:drawable="@drawable/btn_default"></item>
     <item android:state_pressed="true"
         android:drawable="@drawable/btn_background_clicked"></item>
+
 </selector>
